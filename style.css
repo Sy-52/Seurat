@@ -1,0 +1,81 @@
+/*Theme Name:Seurat
+ *Theme URI:http://www.fanyikai.com/wp
+ *Description:主题样本
+ *Version:v1.0
+ *Author:Yikai Fan
+ *Author URI:http://www.fanyikai.com/wp
+ *Tags: theme , seurat , animic
+ */
+/* 重置标签的默认样式及消除标签在不同浏览器差异 -- cssReset */
+body,p,h1,h2,h3,h4,h5{margin:0;}
+hr{margin:50px auto;}
+ul{list-style-type:none;margin:0;padding-left:0;}
+a{color:#6db6ab;text-decoration:none;}
+p{text-indent:2em;}
+/*{outline:1px solid red;}*/
+/* 布局,模块,元件中通用性较高样式的统一处理/设置(背景图/浮动清除) */
+body{position:relative;padding-top:401px;/* IE7下Bug*/font:16px/25px 'Microsoft Yahei';color:#3c3c3c;}
+p{margin:18px 0;}
+.u-boundry{width:84px;background-color:#999;}
+/* 页面布局划分 -- 中部白纸与底部博客信息 */
+.g-wrap{width:75%;margin:0 auto 60px;padding:1px;background:#fff;box-shadow:0 0 40px #fff;}
+.g-foot{height:60px;line-height:60px;text-align:center;font-size:13px;color:#999;}
+/* 中部的几个模块  -- 头部，文章列表，底部导航 */
+.m-head{width:84%;margin:50px auto;}
+.m-list{width:84%;margin:50px auto;}
+.m-nav{width:84%;margin:0 auto 50px;font-size:0px;}
+.m-tool{position:fixed;left:10px;bottom:30px;width:32px;}
+/* single.css的文章模块 */
+.m-body{width:84%;margin:0 auto;}
+/* 模块中元件与子类  */
+/* 白纸模块 -- 头部 */
+.m-head .m-title{border-bottom:8px solid #cc856f;}
+.m-head .m-title li{display:inline-block;}
+.m-head .m-title li{*display:inline;/* IE6,7下inline-block Bug*/}
+.m-head .m-title .u-logo{margin-bottom:5px;color:#cc856f;font:bold 32px 'Microsoft Yahei';text-shadow:1px 2px #fff,2px 4px #edd4cd;}
+#hitokoto{margin-bottom:7px;}
+#hitokoto a{margin-right:13px;color:#999;font-size:14px;font-weight:bold;}
+.m-head .u-nav{text-align:right;}
+.m-head .u-nav li{display:inline-block;margin:8px 0 23px 5px;padding:.3em .7em;border:3px solid #cc856f;border-radius:20px;font-weight:bold;color:#fff;background-color:#cc856f;}
+.m-head .u-nav li{*display:inline;/* IE6,7下inline-block Bug*/} 
+.m-head .u-nav li:hover{background-color:#fff;}
+.m-head .u-nav li a{color:#fff;}
+.m-head .u-nav li:hover a{color:#cc856f;} 
+/* 白纸模块 -- 头部（single.css）*/
+.m-head-2{margin-bottom:95px;}
+.u-nav2{width:84%;margin:18px auto 0;text-align:center;font-size:0px;}		
+.u-nav2 h5{position:relative;display:inline-block;width:49%;height:41px;z-index:1;}		
+.u-nav2 h5 a{display:inline-block;width:50%;line-height:41px;font-size:16px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}		
+.u-nav2 .left{border:2px solid #6db6ab;}	
+.u-nav2 .left a{color:#6db6ab;}	
+.u-nav2 .left:after{content:'';display:block;position:absolute;width:0%;height:100%;right:0;top:0;background-color:#6db6ab;z-index:-1;-webkit-transition:width .3s;transition:width .3s;}	
+.u-nav2 .left:hover:after{width:100%;}	
+.u-nav2 .left:hover a{color:#fff;}
+.u-nav2 .right{border:2px solid #cc856f;}			
+.u-nav2 .right a{color:#cc856f;}	
+.u-nav2 .right:after{content:'';display:block;position:absolute;width:0%;height:100%;left:0;top:0;background-color:#cc856f;z-index:-1;-webkit-transition:width .3s;transition:width .3s;}	
+.u-nav2 .right:hover:after{width:100%;}	
+.u-nav2 .right:hover a{color:#fff;}	
+/* 白纸模块 -- 中部文章列表 */
+.m-list .u-post{margin-bottom:30px;}
+.u-post h5 a{display:block;height:30px;border-top:1px dashed #cc856f;border-right:1px dashed #cc856f;text-align:center;font-size:18px;color:#cc856f;}		
+.u-post .u-tag{margin-bottom:25px;font-size:0;}
+.u-post .u-tag a{display:inline-block;padding:2.7px 2px;margin-right:5px;border-radius:25%;color:#fff;font-size:10px;font-weight:bold;background-color:#6db6ab;}
+.u-post .more-link{display:inline-block;margin:18px 0;line-height:25px;font-weight:bold;}
+/* 白纸模块 -- 底部导航 */
+.m-nav .u-nav{display:inline-block;width:25%;vertical-align:text-top;}
+.m-nav .u-nav{*display:inline;/* IE6,7下inline-block Bug*/}
+.m-nav .u-nav h5{margin-top:10px;font-size:16px;text-align:center;color:#cc856f;}
+.m-nav .u-nav li{margin-top:10px;text-align:center;font-size:16px;}
+/* 工具模块 -- 左下角小工具*/
+.m-tool li{width:32px;height:32px;}
+.m-tool li a{font:bold 32px 'FontAwesome';color:#6db6ab;}
+.m-tool .u-toTop{position:relative;}
+.m-tool .u-toTop a{position:absolute;top:200px;}
+.m-tool .u-toTop a:before{content:'\f062';}
+.m-tool .u-home a:before{content:'\f015';}
+@keyframes fadeIn{from{top:200px;}to{top:0;}}
+@keyframes fadeOut{from{top:0;}to{top:200px;}}
+/* 状态样式 */
+.g-foot a:hover{color:#999;}
+
