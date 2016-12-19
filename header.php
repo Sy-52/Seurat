@@ -9,8 +9,6 @@
 <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="wp-content/themes/Seurat/font-awesome/css/font-awesome.min.css">
 <!-- 更改link标签的href属性为你网站的'font-awesome/css/font-awesome.min.css'目录所在的绝对路径，我是在WAMP上测试的，用的是相对路径 -->
-<script src="http://127.0.0.1/wordpress/wp-content/themes/Seurat/js/hitokoto.js"></script>
-<!-- 更改script标签的src属性为你网站的'hitokoto.js'文件所在的绝对路径，理由同上 -->
 </head>
 <body id="top">
 <ul class="m-tool">

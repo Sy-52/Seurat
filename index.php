@@ -6,8 +6,8 @@
 		<!-- 博客介绍 - 标题和一言API -->
 		<ul class="m-title">
     		<li class="u-logo"><?php bloginfo('name');?></li>
-   			<li id="hitokoto" style="margin-left:20px;color:#999;font-size:14px;font-weight:bold;"><script>getHitokoto()</script></li>
-   			<!-- 调用hitokoto.js中的getHitokoto()方法从"一言"服务器获取一句话 -->
+   			<li id="hitokoto" style="margin-left:20px;color:#999;font-size:14px;font-weight:bold;"></li>
+   			<!-- 从"一言"服务器获取一句话 -->
     	</ul>	
     	<!-- 博客介绍 - 个人信息导航 -->
     	<ul class="u-nav"> 	
