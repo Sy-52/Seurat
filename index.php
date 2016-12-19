@@ -6,7 +6,8 @@
 		<!-- 博客介绍 - 标题和一言API -->
 		<ul class="m-title">
     		<li class="u-logo"><?php bloginfo('name');?></li>
-    		<li id="hitokoto"><script>hitokoto()</script></li>
+   			<li id="hitokoto" style="margin-left:20px;color:#999;font-size:14px;font-weight:bold;"><script>getHitokoto()</script></li>
+   			<!-- 调用hitokoto.js中的getHitokoto()方法从"一言"服务器获取一句话 -->
     	</ul>	
     	<!-- 博客介绍 - 个人信息导航 -->
     	<ul class="u-nav"> 	
@@ -14,7 +15,7 @@
     		<li><a href="https://github.com/Sy-52" target="_blank">GitHub</a></li>
     	</ul>
     	<!-- 博客介绍 - 主体介绍 -->
-    	<p class="u-content">就让我一个人静静出发。你的心总有个经纬度会留下 , 我会回到你世界 , 跨越爱的时差。</p>
+    	<p>每当我找不到存在的意义，每当我迷失在黑夜里。</p>
 	</div>
 	<!-- 分界线 -->
 	<hr class="u-boundry"/>	
