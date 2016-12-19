@@ -14,7 +14,7 @@ a{color:#6db6ab;text-decoration:none;}
 p{text-indent:2em;}
 /*{outline:1px solid red;}*/
 /* 布局,模块,元件中通用性较高样式的统一处理/设置(背景图/浮动清除) */
-body{position:relative;padding-top:401px;/* IE7下Bug*/font:16px/25px 'Microsoft Yahei';color:#3c3c3c;}
+body{position:relative;padding-top:401px;font:16px/25px 'Microsoft Yahei';color:#3c3c3c;}
 p{margin:18px 0;}
 .u-boundry{width:84px;background-color:#999;}
 /* 页面布局划分 -- 中部白纸与底部博客信息 */
@@ -34,7 +34,6 @@ p{margin:18px 0;}
 .m-head .m-title li{*display:inline;/* IE6,7下inline-block Bug*/}
 .m-head .m-title .u-logo{margin-bottom:5px;color:#cc856f;font:bold 32px 'Microsoft Yahei';text-shadow:1px 2px #fff,2px 4px #edd4cd;}
 #hitokoto{margin-bottom:7px;}
-#hitokoto a{margin-right:13px;color:#999;font-size:14px;font-weight:bold;}
 .m-head .u-nav{text-align:right;}
 .m-head .u-nav li{display:inline-block;margin:8px 0 23px 5px;padding:.3em .7em;border:3px solid #cc856f;border-radius:20px;font-weight:bold;color:#fff;background-color:#cc856f;}
 .m-head .u-nav li{*display:inline;/* IE6,7下inline-block Bug*/} 
@@ -70,10 +69,7 @@ p{margin:18px 0;}
 /* 工具模块 -- 左下角小工具*/
 .m-tool li{width:32px;height:32px;}
 .m-tool li a{font:bold 32px 'FontAwesome';color:#6db6ab;}
-.m-tool .u-toTop{position:relative;}
 .m-tool .u-toTop a{position:absolute;top:200px;}
-.m-tool .u-toTop a:before{content:'\f062';}
-.m-tool .u-home a:before{content:'\f015';}
 @keyframes fadeIn{from{top:200px;}to{top:0;}}
 @keyframes fadeOut{from{top:0;}to{top:200px;}}
 /* 状态样式 */
