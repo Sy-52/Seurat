@@ -1,6 +1,6 @@
 # Seurat -- 总结
 ## 1 文档规范
-1、待做标注为 `//TODO`
+1、待做标注为 `//TODO`<br/>
 2、已做标注为 `//DONE`
 ## 2 前言
 去年我大概用了半年WordPress博客系统，Seurat正是当时仿写的一款WordPress主题。<br/>
