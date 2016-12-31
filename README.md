@@ -12,7 +12,11 @@
 代码的这一系列变化只有在网页上调试时看源码才能看到，这意味着如果要给这些数据添加样式就得先看源码，然后再去css文件中根据源码中wp所用的标签、类名去设样式。<br/>
 2、WP后台发布文章所用的文档编辑器实在太烂，各种样式上的问题层出不穷，体验相当差。
 ## 3 使用
-
+-> 下载本项目<br/>
+-> 解压后将本项目放在'wordpress/wp-content/themes'目录下，Seurat会自动出现在wordpress后台的主题列表中。<br/>
+-> 在wordpress后台选择主题'Seurat'并应用.<br/>
+-> 项目界面如下图：<br/>
+   ![screenshot](screenshot.jpg)
 ## 4 项目架构
 HTML + CSS + JS + PHP + font awesome<br/>
 这里可以考虑选用一些库/框架来提高开发效率。			`//TODO`<br/>
